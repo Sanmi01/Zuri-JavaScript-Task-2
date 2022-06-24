@@ -20,7 +20,7 @@ while (operation !== "+" && operation !== "-" && operation !== "*" && operation 
 
 function calculation() {
     if (operation === "+") {
-        answer = firstNum + secondNum
+        answer = parseFloat(firstNum) + parseFloat(secondNum)
         alert(answer)
     } else if (operation === "-") {
         answer = firstNum - secondNum
