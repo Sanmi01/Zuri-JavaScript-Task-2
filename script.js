@@ -1,12 +1,13 @@
 let firstNum = prompt("Enter the first number:")
 
-while ( (isNaN(firstNum)) ) {
+
+while ( (isNaN(firstNum)) ||  (firstNum == "") ||  (firstNum == null) ) {
     firstNum = prompt("Invalid input. Please enter a valid input (number) for the first number:")
 }
 
 let secondNum = prompt("Enter the second number:")
 
-while ( (isNaN(secondNum)) ) {
+while ( (isNaN(secondNum)) ||  (secondNum == "") ||  (secondNum == null) ) {
     secondNum = prompt("Invalid input. Please enter a valid input (number) for the second number:")
 }
 
