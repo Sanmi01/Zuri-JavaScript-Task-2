@@ -17,19 +17,19 @@ function calculation() {
 
     if (operation === "+") {
         answer = firstNum + secondNum
-        alert(answer)
+        alert(`Result: ${firstNum} ${operation} ${secondNum} = ${answer}`)
     } else if (operation === "-") {
         answer = firstNum - secondNum
-        alert(answer)
+        alert(`Result: ${firstNum} ${operation} ${secondNum} = ${answer}`)
     } else if (operation === "*") {
         answer = firstNum * secondNum
-        alert(answer)
+        alert(`Result: ${firstNum} ${operation} ${secondNum} = ${answer}`)
     } else if (operation === "/") {
         answer = firstNum / secondNum
-        alert(answer)
+        alert(`Result: ${firstNum} ${operation} ${secondNum} = ${answer}`)
     } else if (operation === "%") {
         answer = firstNum % secondNum
-        alert(answer)
+        alert(`Result: ${firstNum} ${operation} ${secondNum} = ${answer}`)
     } 
 }
 
