@@ -1,11 +1,11 @@
 function calculation() {
     let firstNum = parseFloat(prompt("Enter the first number:"))
-    while ( (isNaN(firstNum)) ||  (firstNum == "") ||  (firstNum == null) ) {
+    while ( (isNaN(firstNum)) ||  (firstNum === "") ||  (firstNum === null) ) {
         firstNum = parseFloat(prompt("Invalid input. Please enter a valid input (number) for the first number:"))
     }
     
     let secondNum = parseFloat(prompt("Enter the second number:"))
-    while ( (isNaN(secondNum)) ||  (secondNum == "") ||  (secondNum == null) ) {
+    while ( (isNaN(secondNum)) ||  (secondNum === "") ||  (secondNum === null) ) {
         secondNum = parseFloat(prompt("Invalid input. Please enter a valid input (number) for the second number:"))
     }
     
